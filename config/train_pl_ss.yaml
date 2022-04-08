@@ -1,12 +1,12 @@
 ---
   model : "maresunet18-ss"
   model_name :
-    - "maresunet18-ss"
-    - "maresunet18-ss-vq"
-    - "maresunet50-ss"
-    - "maresunet50-ss-vq"
-    - "maresunet50-ss-pretrain-EsViT"
-    - "maresunet50-ss-vq-pretrain-EsViT"
+    - "maresunet18"
+    - "maresunet18-vq"
+    - "maresunet50"
+    - "maresunet50-vq"
+    - "maresunet50-pretrain-EsViT"
+    - "maresunet50-vq-pretrain-EsViT"
 
   batch_size : 8
   epochs : 100
