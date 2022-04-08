@@ -2,16 +2,20 @@ import os
 import torch
 from torch import nn
 from torch.nn import functional as F
-import pytorch_lightning as pl
-from metrics import mIoU, pixel_accuracy, fast_hist, eval_metrics
-from models.build_model import build_model
-from dataset.dataset_semantic_segmentation import Dataset_Semantic_Segmentation
+
 from torch.utils.data import DataLoader
 from utils.dataset_utils import from_one_class_to_rgb_jit
 from torchvision.utils import make_grid
+
+import pytorch_lightning as pl
 from pytorch_lightning import loggers as pl_loggers
+
 import numpy as np
+from dataset.dataset_semantic_segmentation import Dataset_Semantic_Segmentation
 from dataset.dataset_potsdam_semantic_segmentation import DatasetPotsdamSemantiSegmentatin
+
+from metrics import mIoU, pixel_accuracy, fast_hist, eval_metrics
+from models.build_model import build_model
 
 
 class LitAutoEncoder(pl.LightningModule):

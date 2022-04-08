@@ -8,7 +8,7 @@ from datetime import datetime
 import yaml
 from dataset.dataset_semantic_segmentation import Dataset_Semantic_Segmentation
 import pytorch_lightning as pl
-from aux_train.LitAutoEncoder_SS import LitAutoEncoder
+from LitAutoEncoder_SS import LitAutoEncoder
 from pytorch_lightning import loggers as pl_loggers
 import warnings
 from operator import xor
