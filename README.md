@@ -1,7 +1,7 @@
 # semantic-segmentation-potsdam
  
 Per lanciare il training eseguire il seguente comando:
-(prima di eseguire lo script assicurarsi che nel file di configurazione i percorsi del training set e del validation set siano correttamente stati inseriti)
+(prima di eseguire lo script assicurarsi che nel file di configurazione i percorsi del training set e del validation set siano stati correttamente inseriti)
 
 ```
 yes | python config_changer.py --epochs=150  --model_name='maresunet18' --train_dataset_length=-1 --valid_dataset_length=-1 --vq_flag=False
