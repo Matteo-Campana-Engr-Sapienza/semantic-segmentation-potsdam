@@ -1,4 +1,4 @@
-# semanti-segmentation-potsdam
+# semantic-segmentation-potsdam
  
 Per lanciare il training eseguire il seguente comando
 
