@@ -1,5 +1,5 @@
 ---
-  model : "maresunet18-ss"
+  model : "maresunet18"
   model_name :
     - "maresunet18"
     - "maresunet18-vq"
