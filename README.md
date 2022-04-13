@@ -2,11 +2,11 @@
  
 Per lanciare il training eseguire il seguente comando
 
-'''
+```
 yes | python config_changer.py --epochs=150  --model_name='maresunet18' --train_dataset_length=-1 --valid_dataset_length=-1 --vq_flag=False
 cat config/train_pl_ss.yaml
 python main_pl_ss.py
-'''
+```
 
 dove le seguenti argomenti di inputs rappresentano
 
